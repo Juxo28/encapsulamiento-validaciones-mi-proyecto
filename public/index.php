@@ -15,6 +15,7 @@ $usuario1 = new Gasto(
 );
 
 $usuario1->setId(1);
+$usuario1->setMonto(-500);
 $usuario1->setMetodoPago("Bancolombia");
 $usuario1->setUsuarioGasto("David Latorre");
 
